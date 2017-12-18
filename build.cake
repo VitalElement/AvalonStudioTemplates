@@ -132,7 +132,6 @@ Information("IsPullRequest: " + isPullRequest);
 Information("IsMainRepo: " + isMainRepo);
 Information("IsMasterBranch: " + isMasterBranch);
 Information("IsTagged: " + isTagged);
-Information("IsReleasable: " + isReleasable);
 Information("IsMyGetRelease: " + isMyGetRelease);
 Information("IsNuGetRelease: " + isNuGetRelease);
 
