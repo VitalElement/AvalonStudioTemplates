@@ -1,0 +1,13 @@
+{
+    "author": "VitalElement",
+    "classifications": [ "console", "cpp" ],
+    "name": "Native Console Application",
+    "identity": "VitalElement.ConsoleApp",
+    "shortName": "console.app",
+    "tags": {
+        "language": "C++",
+        "type" : "project"
+    },
+    "sourceName": "AvaloniaAppTemplate",
+    "preferNameDirectory" : "true"
+}

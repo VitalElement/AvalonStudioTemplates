@@ -1,0 +1,47 @@
+{
+  "References": [],
+  "Toolchain": "AvalonStudio.Toolchains.LocalGCC.LocalGCCToolchain",
+  "Debugger2": "AvalonStudio.Debuggers.GDB.Local.LocalGdbDebugger",
+  "ExcludedFiles": [],
+  "Type": "Executable",
+  "StaticLibraries": [],
+  "Executable": "build/bin/ConsoleApplication1.exe",
+  "ToolchainSettings": {
+    "AvalonStudio.Toolchains.GCC.GccToolchainSettings": {
+      "CompileSettings": {
+        "Defines": [],
+        "Includes": [],
+        "DebugInformation": true,
+        "Rtti": false,
+        "Exceptions": false,
+        "CLanguageStandard": "Default",
+        "CppLanguageStandard": "Default",
+        "Optimization": "None",
+        "OptimizationPreference": "None",
+        "Fpu": "None"
+      },
+      "LinkSettings": {
+        "LinkedLibraries": [],
+        "LinkerScripts": [],
+        "UseMemoryLayout": false,
+        "DiscardUnusedSections": false,
+        "NotUseStandardStartupFiles": false,
+        "Library": "None",
+        "SelectedDeviceId": 0,
+        "InRom1Start": 0,
+        "InRom1Size": 0,
+        "InRom2Start": 0,
+        "InRom2Size": 0,
+        "InRam1Start": 0,
+        "InRam1Size": 0,
+        "InRam2Start": 0,
+        "InRam2Size": 0,
+        "DebugInRam": false
+      }
+    }
+  },
+  "DebugSettings": {},
+  "Settings": {
+    "AvalonStudio.Projects.CPlusPlus.BuildEventsSettings": {}
+  }
+}

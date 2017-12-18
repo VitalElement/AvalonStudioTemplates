@@ -1,0 +1,3 @@
+[submodule "cs/avalonia-dotnet-templates"]
+	path = cs/avalonia-dotnet-templates
+	url = https://github.com/AvaloniaUI/avalonia-dotnet-templates.git
