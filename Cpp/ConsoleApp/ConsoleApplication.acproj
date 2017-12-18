@@ -5,7 +5,7 @@
   "ExcludedFiles": [],
   "Type": "Executable",
   "StaticLibraries": [],
-  "Executable": "build/bin/ConsoleApplication1.exe",
+  "Executable": "build/bin/ConsoleApplication",
   "ToolchainSettings": {
     "AvalonStudio.Toolchains.GCC.GccToolchainSettings": {
       "CompileSettings": {

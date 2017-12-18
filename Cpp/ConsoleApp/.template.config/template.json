@@ -8,6 +8,6 @@
         "language": "C++",
         "type" : "project"
     },
-    "sourceName": "AvaloniaAppTemplate",
+    "sourceName": "ConsoleApplication",
     "preferNameDirectory" : "true"
 }
