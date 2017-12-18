@@ -1,7 +1,7 @@
 {
     "author": "VitalElement",
     "classifications": [ "console", "cpp" ],
-    "name": "Native Console Application",
+    "name": "Console Application",
     "identity": "VitalElement.ConsoleApp",
     "shortName": "console.app",
     "tags": {
