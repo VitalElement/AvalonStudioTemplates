@@ -145,6 +145,7 @@ Information("IsNuGetRelease: " + isNuGetRelease);
 Task("Clean")
 .Does(()=>{
     CleanDirectory(nugetRoot);
+    CleanDirectory(buildDir);
 });
 
 Task("Build")
