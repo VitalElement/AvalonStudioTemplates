@@ -46,10 +46,8 @@ var isMainRepo = StringComparer.OrdinalIgnoreCase.Equals(MainRepo, BuildSystem.A
 var isMasterBranch = StringComparer.OrdinalIgnoreCase.Equals(MasterBranch, BuildSystem.AppVeyor.Environment.Repository.Branch);
 var isTagged = BuildSystem.AppVeyor.Environment.Repository.Tag.IsTag 
                && !string.IsNullOrWhiteSpace(BuildSystem.AppVeyor.Environment.Repository.Tag.Name);
-var isReleasable = StringComparer.OrdinalIgnoreCase.Equals(ReleasePlatform, platform) 
-                   && StringComparer.OrdinalIgnoreCase.Equals(ReleaseConfiguration, configuration);
-var isMyGetRelease = !isTagged && isReleasable;
-var isNuGetRelease = isTagged && isReleasable;
+var isMyGetRelease = !isTagged;
+var isNuGetRelease = isTagged;
 
 var artifactsDir = (DirectoryPath)Directory("./artifacts");
 var buildDir = artifactsDir.Combine("build");
