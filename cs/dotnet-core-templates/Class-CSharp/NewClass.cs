@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AvalonStudioAppTemplate.Namespace
 {
-    interface Interface
+    class NewClass
     {
     }
 }

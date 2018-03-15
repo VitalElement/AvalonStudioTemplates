@@ -8,11 +8,11 @@
         "language": "C#",
         "type" : "item"
     },
-    "sourceName": "Class",
+    "sourceName": "NewClass",
     "primaryOutputs": [ 
-        { "path": "Class.cs" }         
+        { "path": "NewClass.cs" }         
     ],
-    "defaultName": "Class",
+    "defaultName": "NewClass",
     "symbols": {
         "namespace": {
             "description": "Namespace for the generated code",
