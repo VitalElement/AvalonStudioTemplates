@@ -4,6 +4,7 @@
     "name": "Console Application",
     "identity": "VitalElement.ConsoleApp",
     "shortName": "console.app",
+    "description": "A project for creating a native command-line application.",
     "tags": {
         "language": "C++",
         "type" : "project"
