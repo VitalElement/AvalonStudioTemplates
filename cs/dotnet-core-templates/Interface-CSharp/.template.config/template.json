@@ -1,0 +1,23 @@
+{
+    "author": "VitalElement",
+    "classifications": [ "interface", "code" ],
+    "name": "Interface",
+    "identity": "VitalElement.Csharp.Interface",
+    "shortName": "vitalelement.csharp.interface",
+    "tags": {
+        "language": "C#",
+        "type" : "item"
+    },
+    "sourceName": "Interface",
+    "primaryOutputs": [ 
+        { "path": "Interface.cs" }         
+    ],
+    "defaultName": "Interface",
+    "symbols": {
+        "namespace": {
+            "description": "Namespace for the generated code",
+            "replaces": "AvalonStudioAppTemplate.Namespace",
+            "type": "parameter"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "author": "VitalElement",
+    "classifications": [ "class", "code" ],
+    "name": "Class",
+    "identity": "VitalElement.Csharp.Class",
+    "shortName": "vitalelement.csharp.class",
+    "tags": {
+        "language": "C#",
+        "type" : "item"
+    },
+    "sourceName": "Class",
+    "primaryOutputs": [ 
+        { "path": "Class.cs" }         
+    ],
+    "defaultName": "Class",
+    "symbols": {
+        "namespace": {
+            "description": "Namespace for the generated code",
+            "replaces": "AvalonStudioAppTemplate.Namespace",
+            "type": "parameter"
+        }
+    }
+}
