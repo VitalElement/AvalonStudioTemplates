@@ -1,0 +1,24 @@
+{
+    "author": "VitalElement",
+    "classifications": [
+        "class",
+        "code"
+    ],
+    "name": "Class",
+    "identity": "VitalElement.CPlusPlus.Class",
+    "shortName": "vitalelement.CPlusPlus.class",
+    "tags": {
+        "language": "C++",
+        "type": "item"
+    },
+    "sourceName": "NewClass",
+    "primaryOutputs": [
+        {
+            "path": "NewClass.cpp"
+        },
+        {
+            "path": "NewClass.h"
+        }
+    ],
+    "defaultName": "NewClass"
+}
