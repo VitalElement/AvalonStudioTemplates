@@ -152,14 +152,14 @@ Task("Build")
 });
 
 Task("Generate-NuGetPackages")
-.WithCriteria(()=>((isTagged && isMainRepo && isMasterBranch && isRunningOnAppVeyor && !isPullRequest) || isLocalBuild))
+.WithCriteria(()=>((isTagged && isMainRepo && isRunningOnAppVeyor && !isPullRequest) || isLocalBuild))
 .Does(()=>{
         NuGetPack(GetPackSettings(version, nugetRoot.ToString()));
 });
 
 Task("Publish-AppVeyorNuget")
     .IsDependentOn("Generate-NuGetPackages")        
-    .WithCriteria(()=>(isTagged && isMainRepo && isMasterBranch && isRunningOnAppVeyor && !isPullRequest))   
+    .WithCriteria(()=>(isTagged && isMainRepo && isRunningOnAppVeyor && !isPullRequest))   
     .Does(() =>
 {
     var apiKey = EnvironmentVariable("NUGET_API_KEY");
